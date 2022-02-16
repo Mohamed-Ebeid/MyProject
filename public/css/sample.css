@@ -1,0 +1,88 @@
+:root {
+    --three-dimensions-card-left-side-width: 1rem;
+}
+
+.three-dimensions-card {
+    position: relative;
+}
+
+/* The left side */
+.three-dimensions-card::before {
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+
+    /* Position */
+    top: var(--three-dimensions-card-left-side-width);
+    left: 0px;
+    position: absolute;
+    transform: translate(-100%, 0) skewY(-45deg);
+    transform-origin: left top;
+
+    /* Size */
+    height: 100%;
+    width: var(--three-dimensions-card-left-side-width);
+}
+
+/* The bottom side */
+.three-dimensions-card::after {
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+
+    /* Position */
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    transform: translate(0, 100%) skewX(-45deg);
+    transform-origin: left top;
+
+    /* Size */
+    height: var(--three-dimensions-card-left-side-width);
+    width: 100%;
+}
+
+/**/
+
+.layered-card {
+    position: relative;
+}
+
+.layered-card::before {
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+
+    /* Position */
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(1rem, 1rem);
+
+    /* Size */
+    height: 100%;
+    width: 100%;
+
+    /* Display under the main content */
+    z-index: -1;
+}
+
+/**/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
