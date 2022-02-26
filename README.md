@@ -49,7 +49,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Installation:
 
-After you download the files create a new folder named "Laravel_Learning", and inside it create a file named "s01project" and put the downloaded file inside it. Use AMPP for database confg..
+After you download the files create a new folder named "Laravel_Learning", and inside it create a file named "s01project" and put the downloaded files inside it. Use AMPP for database confg..
 
 ## Contributing
 
