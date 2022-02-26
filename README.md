@@ -47,9 +47,9 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[CMS Max](https://www.cmsmax.com/)**
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 
-## Installion:
+## Installation:
 
-After you download the files create a new folder named "Laravel_Learning", and inside it create a file named "s01project" and enjoy. Use AMP for database confg.
+After you download the files create a new folder named "Laravel_Learning", and inside it create a file named "s01project" and enjoy. Use AMPP for database confg..
 
 ## Contributing
 
